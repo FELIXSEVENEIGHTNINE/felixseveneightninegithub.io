@@ -1,3 +1,136 @@
 body {
-	background-color: Gray;
-}
+				background-image:URL("img/wall.jpg");
+				background-repeat:no-repeat;
+				background-size: cover;
+			}
+			
+			#content {
+				width: 1200px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: -20px;
+				background-color: White;
+			}
+			
+			#heading {
+				border-bottom: 0px solid;
+				height: 200px;
+				text-align: center;
+				padding-top:  20px;
+				padding-bottom: 50px;
+				background-image:URL("img/header.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+				
+				#heading h1{
+					font-size: 45px;
+					font-family: Verdana;
+					margin-left: 400px;
+					color: White;
+					margin-top: 50px;
+					text-shadow: 3px 3px black;
+				}
+			
+			nav {
+				font-size: 18px;
+				border:0px solid;
+				width: 500px;
+				height: 30px;
+				padding-top: 10px;
+				margin-left: 400px;
+				background-color:#dbdbdb;
+				border-radius: 10px 0px 10px 0px;
+				font-family: Helvetica;
+			}
+				nav a {
+					color: Black;
+					text-decoration: none;
+					margin: 10px 10px;
+					transition: 0.13s;
+				}
+				
+					nav a:hover {
+						border-bottom: 5px solid Green;
+					}
+				
+				.active {
+					border-bottom: 5px solid;
+					border-top: 2px solid;
+					border-color: Green;
+				}
+			
+			main {
+				border: 0px solid;
+				padding-left: 50px;
+				padding-right: 50px;
+			}
+				main h1 {
+					text-align: center;
+					border-bottom: 3px solid green;
+					width: 500px;
+					margin-left: auto;
+					margin-right: auto;
+					font-family: Verdana;
+				}
+				main h3 {
+					text-align: center;
+					font-size: 20px;
+					font-family: Verdana;
+				}
+				
+				main p {
+					text-indent: 50px;
+					font-size: 18px;
+					font-family: Helvetica;
+				}
+				
+				.award {
+					width:  800px;
+					text-align: justify;
+				}
+			/* PARAGRAPH ONE */
+			.para_one {
+				border: 0px solid;
+				height: 350px;
+				margin-bottom: 50px;
+			}
+				.para_one p {
+					float: left;
+					line-height: 1.5;
+					text-align: justify;
+					width: 570px;
+				}
+				
+				.para_one img{
+					float: right;
+				}
+			
+			/* PARAGRAPH TWO */
+			.para_two {
+				border: 0px solid;
+				height: 350px;
+			}
+				.para_two p {
+					float: right;
+					line-height: 1.5;
+					text-align: justify;
+					width: 500px;
+				}
+				
+				.para_two img{	
+					float: left;
+					width: 50%;
+					height: 90%;
+				}
+			
+			footer {
+				border: 0px solid;
+				border-top: 1px solid;
+				height: 50px;
+			}
+				footer p { 
+					margin-left: 20px;
+					margin-right: 20px;
+					float: left;
+				}
